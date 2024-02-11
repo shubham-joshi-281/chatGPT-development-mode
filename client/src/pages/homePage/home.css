@@ -1,0 +1,46 @@
+.home-container {
+  max-width: 90%;
+  margin: 2rem auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 1rem 0;
+}
+.box-item {
+  width: 27%;
+  margin: 1rem 0;
+  border-radius: 1.5rem;
+  box-shadow: 5px 5px 15px #abff03;
+  padding: 1rem 0rem;
+  border: 2px solid #40fc16;
+  transition: 2s linear;
+}
+.box-item:hover {
+  transform: rotateY(360deg);
+}
+.box-item > * {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.link > h1 {
+  font-size: 2.2rem;
+  padding: 0.5rem 0;
+  color: #05921f;
+}
+.icon {
+  padding: 0.5rem 0;
+  font-size: 4rem;
+  color: #7e089c;
+}
+.link > h5 {
+  color: #f54c4c;
+  font-size: 2rem;
+}
+.link > p {
+  font-size: 1.7rem;
+  padding: 1rem 0.3rem;
+  color: #878787;
+}
